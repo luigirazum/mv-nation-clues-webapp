@@ -2,11 +2,11 @@
 
 <div align="center">
 
-  <img src="./src/assets/imgs/logo/logo_metrics.png" alt="logo" width="100" height="auto" />
+  <img src="./src/assets/imgs/logo/nationclues_logo.png" alt="logo" width="100" height="auto" />
   <br/>
 
-### Metrics WebApp
-<b>Metrics WebApp</b> is a [SPA](https://en.wikipedia.org/wiki/Single-page_application) mobile application to check a list of metrics (numeric values) created using React and Redux. The WebApp is composed by several pages:  1) The [HomePage] that contains a list of items that could be filtered by some parameters; for example, it's a list of metrics that can be filtered by the country (imagine a search field to introduce the country name like Italy, Croatia, etc.), 2) Details page, a page for the item details; in the example, the detail page for Czech Republic cities with number of views.<br>The WebApp allows users to:<br> 1) Select an item from the list in the Homepage, <br> 2) Filter the items in the Homepage using the search field.<br> 3) When clicking an item in the Homepage it will show the item details.<br>
+### NationClues WebApp
+<b>NationClues WebApp</b> is a [SPA](https://en.wikipedia.org/wiki/Single-page_application) mobile application to check a list of metrics (numeric values) created using React and Redux. The WebApp is composed by several pages:  1) The [HomePage] that contains a list of items that could be filtered by some parameters; for example, it's a list of metrics that can be filtered by the country (imagine a search field to introduce the country name like Italy, Croatia, etc.), 2) Details page, a page for the item details; in the example, the detail page for Czech Republic cities with number of views.<br>The WebApp allows users to:<br> 1) Select an item from the list in the Homepage, <br> 2) Filter the items in the Homepage using the search field.<br> 3) When clicking an item in the Homepage it will show the item details.<br>
 <sub><b>API</b> is used to get the data.</sub>
 
 </div>
@@ -14,8 +14,8 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [:statistics: Metrics WebApp ](#statistics-metrics-webapp-)
-    - [Preview of Metrics WebApp.](#preview-of-metrics-webapp)
+- [:statistics: NationClues WebApp ](#statistics-nationclues-webapp-)
+    - [Preview of NationClues WebApp.](#preview-of-nationclues-webapp)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -29,25 +29,31 @@
   - [⭐ Show your support ](#-show-your-support-)
   - [📝 License ](#-license-)
 
-# :statistics: Metrics WebApp <a name="about-project"></a>
+# :statistics: NationClues WebApp <a name="about-project"></a>
 
-*Metrics WebApp* is a Web Application for a company that provides commercial and scientific space travel services.<br>The application allows users to:
-1) Book rockets and,
-2) Join to selected space missions.
+*NationClues WebApp* is a [SPA](https://en.wikipedia.org/wiki/Single-page_application) mobile application to check a list of metrics (numeric values) created using React and Redux. The WebApp is composed by several pages: 
 
-<sub><b>API</b> to get the data.</sub>
+1) The [HomePage] that contains a list of items that could be filtered by some parameters; for example, it's a list of metrics that can be filtered by the country (imagine a search field to introduce the country name like Italy, Croatia, etc.),
+2) [Details] page, a page for the item details; in the example, the detail page for Czech Republic cities with number of views.
+ 
+The WebApp allows users to:
+- Select an item from the list in the Homepage,
+- Filter the items in the Homepage using the search field.
+- When clicking an item in the Homepage it will show the item details.<br>
+
+<sub><b>restcountries API</b> to get the data.</sub>
 
 <div align="center">
 
-### Preview of Metrics WebApp.
+### Preview of NationClues WebApp.
 
 <p>
-  <sup>The <b>Metrics WebApp</b> consists of <b>HomePage</b>, and, <b>Details</b> page.</sup><br>
-  <img src="./src/assets/imgs/wireframes/wf_metrics_wa_home.png" alt="HomePage" width="600" height="auto" /><br>
+  <sup>The <b>NationClues WebApp</b> consists of <b>HomePage</b>, and, <b>Details</b> page.</sup><br>
+  <img src="./src/assets/imgs/wireframes/wf_nationclues_wa_home.png" alt="HomePage" width="600" height="auto" /><br>
   <sup>the <b>HomePage</b> section displays a list of all available items.<br>Users can select any item or filter using the search field.</sup><br><br>
-  <img src="./src/assets/imgs/wireframes/wf_metrics_wa_details.png" alt="Details" width="600" height="auto" /><br>
+  <img src="./src/assets/imgs/wireframes/wf_nationclues_wa_details.png" alt="Details" width="600" height="auto" /><br>
   <sup>the <b>Details</b> page displays the details for that item.<br>Some more explanation.</sup><br><br>
-  <img src="./src/assets/imgs/wireframes/wf_metrics_wa_other.png" alt="Other Feature" width="600" height="auto" /><br>
+  <img src="./src/assets/imgs/wireframes/wf_nationclues_wa_other.png" alt="Other Feature" width="600" height="auto" /><br>
   <sup>the <b>Other Feature</b> description will be here.</sup><br><br>
 </p>
 
@@ -81,7 +87,7 @@ This project was bootstrapped with:
 <!--
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <a href="https://luigirazum.github.io/mv-react-metrics-webapp/" target="_blank" rel="noopener noreferrer">Metrics WebApp - Live Demo</a>
+- <a href="https://luigirazum.github.io/mv-nation-clues-metrics-webapp/" target="_blank" rel="noopener noreferrer">Metrics WebApp - Live Demo</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -99,12 +105,12 @@ In order to run this project locally you need `git` installed. Please got to [Ge
     Clone this repository to your desired folder:
     ```sh
     cd my-folder
-    git clone git@github.com:luigirazum/mv-react-metrics-webapp.git
+    git clone git@github.com:luigirazum/mv-nation-clues-metrics-webapp.git
     ```
 - ### Install
     Install the package dependencies for this project with:
     ```sh
-    cd mv-react-metrics-webapp
+    cd mv-nation-clues-metrics-webapp
     npm install
     ```
 
