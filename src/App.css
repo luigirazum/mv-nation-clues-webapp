@@ -1,0 +1,11 @@
+/* This will be our main css entry point */
+
+/* Setting some global variables */
+:root {
+  /* font-size definitions section */
+  --fs-base: 16px;
+  --fs-body: 1rem;
+
+  /* color definitions section */
+  --c-white: hsl(0, 0%, 98%);
+}
