@@ -5,10 +5,12 @@ import Home from './pages/Home';
 import Nations from './pages/Nations';
 import Nation from './pages/Nation';
 import './App.css';
+import NavBar from './components/NavBar/NavBar';
 
 const App = () => (
   <div className="App">
     <BrowserRouter>
+      <NavBar />
       <h1>NationClues NAV</h1>
       <Routes>
         <Route index element={<Home />} />
