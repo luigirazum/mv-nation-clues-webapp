@@ -1,10 +1,87 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`tests for NavBar component... renders correctly 1`] = `
+exports[`tests for Header component... renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <header
+        class="appHeader"
+      >
+        <div
+          class="appName"
+        >
+          <a
+            class="titleLink"
+            href="/"
+          >
+            Nati
+            <div
+              class="appLogo"
+            />
+            nClues
+          </a>
+        </div>
+        <nav
+          class="navContainer"
+        >
+          <ul
+            class="navBar"
+          >
+            <li
+              class="navItem"
+            >
+              <a
+                aria-current="page"
+                class="navLink active"
+                href="/"
+              >
+                All Nations
+              </a>
+            </li>
+            <li
+              class="navItem"
+            >
+              <a
+                class="navLink"
+                href="/nations"
+              >
+                by Name
+              </a>
+            </li>
+            <li
+              class="navItem"
+            >
+              <a
+                class="navLink"
+                href="/region"
+              >
+                by Region
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="appHeader"
+    >
+      <div
+        class="appName"
+      >
+        <a
+          class="titleLink"
+          href="/"
+        >
+          Nati
+          <div
+            class="appLogo"
+          />
+          nClues
+        </a>
+      </div>
       <nav
         class="navContainer"
       >
@@ -44,48 +121,7 @@ Object {
           </li>
         </ul>
       </nav>
-    </div>
-  </body>,
-  "container": <div>
-    <nav
-      class="navContainer"
-    >
-      <ul
-        class="navBar"
-      >
-        <li
-          class="navItem"
-        >
-          <a
-            aria-current="page"
-            class="navLink active"
-            href="/"
-          >
-            All Nations
-          </a>
-        </li>
-        <li
-          class="navItem"
-        >
-          <a
-            class="navLink"
-            href="/nations"
-          >
-            by Name
-          </a>
-        </li>
-        <li
-          class="navItem"
-        >
-          <a
-            class="navLink"
-            href="/region"
-          >
-            by Region
-          </a>
-        </li>
-      </ul>
-    </nav>
+    </header>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

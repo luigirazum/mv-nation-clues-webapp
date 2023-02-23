@@ -1,91 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`tests for NavBar component... renders correctly 1`] = `
+exports[`tests for AppName component... renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <nav
-        class="navContainer"
+      <div
+        class="appName"
       >
-        <ul
-          class="navBar"
+        <a
+          class="titleLink"
+          href="/"
         >
-          <li
-            class="navItem"
-          >
-            <a
-              aria-current="page"
-              class="navLink active"
-              href="/"
-            >
-              All Nations
-            </a>
-          </li>
-          <li
-            class="navItem"
-          >
-            <a
-              class="navLink"
-              href="/nations"
-            >
-              by Name
-            </a>
-          </li>
-          <li
-            class="navItem"
-          >
-            <a
-              class="navLink"
-              href="/region"
-            >
-              by Region
-            </a>
-          </li>
-        </ul>
-      </nav>
+          Nati
+          <div
+            class="appLogo"
+          />
+          nClues
+        </a>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <nav
-      class="navContainer"
+    <div
+      class="appName"
     >
-      <ul
-        class="navBar"
+      <a
+        class="titleLink"
+        href="/"
       >
-        <li
-          class="navItem"
-        >
-          <a
-            aria-current="page"
-            class="navLink active"
-            href="/"
-          >
-            All Nations
-          </a>
-        </li>
-        <li
-          class="navItem"
-        >
-          <a
-            class="navLink"
-            href="/nations"
-          >
-            by Name
-          </a>
-        </li>
-        <li
-          class="navItem"
-        >
-          <a
-            class="navLink"
-            href="/region"
-          >
-            by Region
-          </a>
-        </li>
-      </ul>
-    </nav>
+        Nati
+        <div
+          class="appLogo"
+        />
+        nClues
+      </a>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
