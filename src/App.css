@@ -1,11 +1,98 @@
-/* This will be our main css entry point */
+/* ------------------------------------------
+ * This will be our main css entry point
+ * Import fonts
+ */
+
+/* Lato font - for CONTROLS */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+/* Cabin font - for BODY and TITLES */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap');
 
 /* Setting some global variables */
 :root {
-  /* font-size definitions section */
-  --fs-base: 16px;
-  --fs-body: 1rem;
+  /* font-family definitions */
+  --ff-lato: 'Lato', sans-serif;   /* << Lato for CONTROLS */
+  --ff-cabin: 'Cabin', sans-serif; /* << Cabin for BODY and TITLES */
 
-  /* color definitions section */
-  --c-white: hsl(0, 0%, 98%);
+  /* font-weight definitions */
+  --fw-thin: 100;     /* lato */
+  --fw-ligth: 300;    /* lato */
+  --fw-regular: 400;  /* lato & cabin */
+  --fw-medium: 500;   /* cabin */
+  --fw-semibold: 600; /* cabin */
+  --fw-bold: 700;     /* lato & cabin */
+  --fw-black: 900;    /* lato */
+
+  /* font-size definitions */
+  --fs-base: 18px;
+  --fs-body: 1rem;
+  --fs-nav-title: calc(2 * var(--fs-body));
+
+  /* color definitions */
+  --c-blue: hsl(219, 45%, 48%);  /* 436ab1 */
+  --f-blue:
+    invert(38%) sepia(35%)
+    saturate(1008%) hue-rotate(180deg)
+    brightness(94%) contrast(82%);
+  --c-black: hsl(0, 0%, 0%);      /* 000 */
+  --f-black:
+    invert(0%) sepia(14%)
+    saturate(24%) hue-rotate(223deg)
+    brightness(99%) contrast(102%);
+  --c-gray-1d: hsl(0, 0%, 11%);      /* 1d1d1d */
+  --c-gray-41: hsl(0, 0%, 25%); /* 414141 */
+  --f-gray-41:
+    invert(22%) sepia(11%)
+    saturate(9%) hue-rotate(346deg)
+    brightness(100%) contrast(89%);
+  --c-white: hsl(0, 0%, 98%);        /* fafafa */
+
+  /* color assignment */
+
+  /* NavBar AppName */
+  --nav-title-link: var(--c-blue);
+  --nav-title-logo: var(--f-blue);
+  --nav-title-link-hover: var(--c-gray-41);
+  --nav-title-logo-hover: var(--f-gray-41);
+  --nav-title-link-click: var(--c-black);
+  --nav-title-logo-click: var(--f-black);
+
+  /* NavBar links */
+  --nav-link: var(--c-gray-1d);
+  --nav-link-hover: var(--c-gray-41);
+  --nav-link-active: var(--c-blue);
+}
+
+/* Global resets */
+html {
+  font-size: var(--fs-base);
+}
+
+body {
+  font-size: var(--fs-body);
+  font-family: var(--ff-cabin);
+  padding-inline: 1em;
+  padding-block: 1em 2em;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul {
+  margin: 0;
+  padding: 0;
 }

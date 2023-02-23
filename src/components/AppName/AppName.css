@@ -1,0 +1,46 @@
+.titleLink {
+  font-family: var(--ff-cabin);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-nav-title);
+  color: var(--nav-title-link);
+  letter-spacing: -0.5px;
+  display: flex;
+  text-decoration: none;
+}
+
+.titleLink:hover {
+  color: var(--nav-title-link-hover);
+}
+
+.titleLink:active {
+  color: var(--nav-title-link-click);
+}
+
+.appLogo {
+  display: flex;
+  position: relative;
+  width: 1.33rem;
+  margin-block-start: 0.425em;
+  height: calc(1.5 * var(--fs-body) + 2px);
+}
+
+.appLogo::before {
+  content: '';
+  width: 1.65rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-image: url(../../assets/logo/nationclues_logo.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  filter: var(--nav-title-logo);
+}
+
+.titleLink:hover .appLogo::before {
+  filter: var(--nav-title-logo-hover);
+}
+
+.titleLink:active .appLogo::before {
+  filter: var(--nav-title-logo-active);
+}

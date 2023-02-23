@@ -1,0 +1,7 @@
+.appHeader {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-block: 1em;
+  padding-inline: 0.5em;
+}
